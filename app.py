@@ -42,7 +42,7 @@ def recommend_books(book_name):
     return book_data
 
 # Main Streamlit UI
-st.header("InkSpire - Book Recommendation System")
+st.markdown("<h1 style='text-align: left;'>InkSpire - Book Recommendation System</h1><p>A System To Help You Find Your Next Read</p>", unsafe_allow_html=True)
 
 with st.expander("📖 How It Works"):
     st.write("""
